@@ -17,4 +17,65 @@
   margin-top: 0px;
 }
 
+form {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  margin: auto;
+}
+
+button {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  margin: auto;
+  background-color: #C10000;
+  color: #ffffff;
+}
+
+.button {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  margin: auto;
+  background-color: #C10000;
+  color: #ffffff;
+}
+
+.box {
+  margin: auto;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  border: 3px solid #C10000;
+  border-radius: 16px;
+  width: 60%;
+  height: 180px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.special {
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Fjalla One', sans-serif;
+  color: #C10000;
+}
+
+.superSpecial {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Fjalla One', sans-serif;
+  color: #ffffff;
+
+}
+
+.main {
+  margin: auto;
+  font-family: 'Fjalla One', sans-serif;
+  border: 3px solid #C10000;
+  border-radius: 20px;
+  width: 96%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 60px;
+  background-color: #C10000;
+}
 

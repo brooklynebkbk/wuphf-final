@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 function Wuphfs(props){
   return(
-    <div><p>WUPHFS</p></div>
+    <div><p className="special">WUPHFS</p></div>
     )
 }
 export default Wuphfs;

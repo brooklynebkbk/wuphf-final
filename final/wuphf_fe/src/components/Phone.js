@@ -20,11 +20,11 @@ class Phone extends Component{
 
   render(){
   return(
-    <div>
-    <p>PHONE</p>
+    <div className="box">
+    <p className="special">PHONE</p>
     <form>
       <input type="text" onChange={()=>this.handlePhoneInput} />
-      <input type="submit" onChange={()=>this.handleSubmit} />
+      <input className="button" type="submit" onChange={()=>this.handleSubmit} />
     </form>
     </div>)
   }

@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 function WuphfFriends(props){
   return(
-    <div><p>FRIENDS</p></div>
+    <div><p className="special">FRIENDS</p></div>
     )
 }
 export default WuphfFriends;

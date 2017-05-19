@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 function Welcome(props){
   return(
-    <div><p>WELCOME</p></div>
+    <div><p className="special">WELCOME</p></div>
     )
 }
 

@@ -15,7 +15,7 @@ function UserAuth(props){
   console.log("userAuth");
 
   return(
-    <div><p>USERAUTH</p>
+    <div className="main"><p className="superSpecial">USERAUTH</p>
     <Email />
     <Phone />
     <Facebook />

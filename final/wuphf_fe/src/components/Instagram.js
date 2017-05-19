@@ -30,12 +30,12 @@ class Instagram extends Component{
 
   render(){
   return(
-    <div>
-    <p>INSTAGRAM</p>
+    <div className="box">
+    <p className="special">INSTAGRAM</p>
     <form>
       <input type="text" onChange={()=>this.handleEmailInput} />
-      <input type="text" onChange={()=>this.handlePasswordInput} />
-      <input type="submit" onChange={()=>this.handleSubmit} />
+      <input type="password" onChange={()=>this.handlePasswordInput} />
+      <input className="button" type="submit" onChange={()=>this.handleSubmit} />
     </form>
     </div>)
   }

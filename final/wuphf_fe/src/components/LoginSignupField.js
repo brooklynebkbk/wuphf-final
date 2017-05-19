@@ -46,37 +46,37 @@ chooseLogin(){
 pickedform(){
   if(this.state.renderButtons && this.state.renderForm){
     return(
-    <div>
-    <p>SIGNUP</p>
+    <div className="box">
+    <p className="special">SIGNUP</p>
     <form onSubmit={()=>this.handleSignup()}>
       <input type="text" onChange={(f)=>this.handleFirstnameInput(f)} />
       <input type="text" onChange={(l)=>this.handleLastnameInput(l)} />
       <input type="text" onChange={(e)=>this.handleEmailInput(e)} />
-      <input type="text" onChange={(p)=>this.handlePasswordInput(p)} />
-      <input type="submit" />
+      <input type="password" onChange={(p)=>this.handlePasswordInput(p)} />
+      <input className="button" type="submit" />
     </form>
     </div>)
   } else if(this.state.renderButtons){
     return(
-      <div>
-      <p>WELCOME</p>
+      <div className="box">
+      <p className="special">GET STARTED</p>
       <button onClick={()=>this.chooseLogin()}>Log in</button>
       <button onClick={()=>this.chooseSignup()}>Sign up</button>
       </div>)
   } else if(this.state.renderForm){
     return(
-    <div>
-    <p>LOGIN</p>
+    <div className="box">
+    <p className="special">LOGIN</p>
     <form onSubmit={()=>this.handleLogin()}>
       <input type="text" onChange={(e)=>this.handleEmailInput(e)} />
-      <input type="text" onChange={(p)=>this.handlePasswordInput(p)} />
-      <input type="submit" />
+      <input type="password" onChange={(p)=>this.handlePasswordInput(p)} />
+      <input className="button" type="submit" />
     </form>
     </div>)
   } else {
     return(
-      <div>
-      <p>LOGOUT</p>
+      <div className="box">
+      <p className="special">LOGOUT</p>
       <button onClick={()=>this.logOut()}>Log out</button>
       </div>)
   }
